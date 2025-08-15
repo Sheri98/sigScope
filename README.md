@@ -10,7 +10,7 @@ Fundamentals-level, single EXE, no drivers.
 - Dumps process token privileges (e.g., `SeDebugPrivilege`)
 - Graceful handling for access-denied/PPL processes
 
-> ⚠️ Designed for learning and triage. It **does not** modify the system.
+> Designed for learning and triage. It **does not** modify the system.
 
 
 ## Run
