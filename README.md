@@ -16,17 +16,12 @@ Fundamentals-level, single EXE, no drivers.
 ## Run
 
 ```bat
-SigScope.exe > scan.txt 2>&1
+SigScope.exe > scan.txt
 ```
 
 Run from an **elevated** console to enumerate more processes/modules.  
-You can also `Tee-Object` in PowerShell to save and view live:
+You can also `Tee-Object` in PowerShell to save and view live
 
-```powershell
-.\SigScope.exe 2>&1 | Tee-Object -FilePath scan.txt -Encoding utf8
-```
-
-## Sample Output
 
 ```
 [+] Process Name: winlogon.exe
